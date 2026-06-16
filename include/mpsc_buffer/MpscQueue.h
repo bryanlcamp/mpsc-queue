@@ -1,4 +1,4 @@
-cpp#pragma once
+#pragma once
 
 #include <utility>
 #include <memory>
