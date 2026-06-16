@@ -1,0 +1,17 @@
+{
+  "version": 4,
+  "configurePresets": [
+    {
+      "name": "default-gcc",
+      "displayName": "GCC Core Optimized",
+      "description": "Cross-platform release preset targeting native microarchitecture vector pipelines",
+      "binaryDir": "${sourceDir}/build",
+      "generator": "Unix Makefiles",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_CXX_COMPILER": "/opt/homebrew/bin/g++-15",
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
+      }
+    }
+  ]
+}

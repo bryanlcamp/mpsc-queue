@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "name": "Mac-GCC",
+      "includePath": [
+        "${workspaceFolder}/include",
+        "${workspaceFolder}/build"
+      ],
+      "defines": [],
+      "macFrameworkPath": [],
+      "compilerPath": "/opt/homebrew/bin/g++-15",
+      "cStandard": "c17",
+      "cppStandard": "c++23",
+      "intelliSenseMode": "macos-gcc-arm64",
+      "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+    }
+  ],
+  "version": 4
+}
